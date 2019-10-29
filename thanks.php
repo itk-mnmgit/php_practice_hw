@@ -1,6 +1,6 @@
 <?php
     if ($_SERVER['REQUEST_METHOD'] === 'GET'){
-        header('Location: index.html');
+        header('Location: reserve.html');
     }
 
     $familyname = $_POST['familyname'];
